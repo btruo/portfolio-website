@@ -1,8 +1,66 @@
+
 .App {
   text-align: center;
+  background-color: #1e1e1e;
+  color: white;
 }
 
-.App-logo {
+h1 {
+  font-size: 88px;
+  line-height: 88px;
+  font-family: "Mukta", sans-serif;
+  font-weight: bold;
+}
+h2 {
+  font-size: 64px;
+  line-height: 56px;
+  font-family: "Mukta", sans-serif;
+  font-weight: bold;
+}
+h3 {
+  font-size: 40px;
+  line-height: 56px;
+  font-family: "Mukta", sans-serif;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 32px;
+  line-height: 32px;
+  font-family: "Mukta", sans-serif;
+  font-weight: bold;
+}
+
+body {
+  font-size: 24px;
+  line-height: 28px;
+  font-family: "Mukta", sans-serif;
+  font-weight: medium;
+}
+
+head{
+  font-family: "Mukta", sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+.App-header {
+  background-color: #1e1e1e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+}
+
+.underline {
+  text-decoration-color: #4a77ae;
+}
+
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -12,17 +70,8 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 
-.App-header {
-  background-color: #3f547d;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
@@ -36,3 +85,4 @@
     transform: rotate(360deg);
   }
 }
+ */
